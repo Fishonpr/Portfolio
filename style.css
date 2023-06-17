@@ -1,13 +1,28 @@
 /* Your Styles */
-
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
 /* diagnostic styling. remove when done */
-* {
-    outline: 1px dotted gray;
+main img {
+    width: 30%;
+    border-radius: 10%;
+
+}
+h2{
+    font-family: 'Gotu', sans-serif;
+    font-size: 2rem;
+}
+figcaption {
+    font-family: 'Gotu', sans-serif;
+    font-size: 1rem;
+}
+
+dialog img{
+    width: 45%;
 }
 
 /* Layout with css grid */
 body {
     display: grid;
+    background-color: #233b4e64;
 }
 
 main {
@@ -20,7 +35,7 @@ main {
 }
 
 figure {
- margin: 0;
+ margin: 1px;
  /* set your width */
  width: 33%;
 }
@@ -28,6 +43,7 @@ figure {
 /* Backdrop for modal overlay */
 ::backdrop {
     background: rgba(0, 0, 0, 0.75);
+    border: none;
 }
 
 /* Animation */
